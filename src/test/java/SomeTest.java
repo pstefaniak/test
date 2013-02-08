@@ -5,18 +5,18 @@ public class SomeTest extends TestCase
     public void testOne() throws Exception
     {
       new ThisShouldCompile();
-//    fail("one"); 
+    fail("one"); 
     }
 
     public void testTwo() throws Exception
     {
         new ThisShouldCompile();
-//      fail("two"); 
+      fail("two"); 
     }
 
     public void testThree() throws Exception
     {
         new ThisShouldCompile();
-//        fail("three"); 
+        fail("three"); 
     }
 }
