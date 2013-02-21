@@ -17,6 +17,12 @@ public class SomeTest extends TestCase
     public void testThree() throws Exception
     {
         new ThisShouldCompile();
-        fail("three"); 
+//        fail("three"); 
+    }
+
+    public void testFour() throws Exception
+    {
+        new ThisShouldCompile();
+//        fail("three"); 
     }
 }
