@@ -4,8 +4,8 @@ public class SomeTest extends TestCase
 {
     public void testOne() throws Exception
     {
-//        new ThisShouldCompile();
-      fail("one"); 
+        new ThisShouldCompile();
+//      fail("one"); 
     }
 
     public void testTwo() throws Exception
