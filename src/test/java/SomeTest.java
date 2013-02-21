@@ -19,4 +19,10 @@ public class SomeTest extends TestCase
         new ThisShouldCompile();
         fail("three"); 
     }
+
+    public void testFour() throws Exception
+    {
+        new ThisShouldCompile();
+        fail("four"); 
+    }
 }
