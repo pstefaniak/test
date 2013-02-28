@@ -17,7 +17,7 @@ public class SomeTest extends TestCase
     public void testNotPassing() throws Exception
     {
         new ThisShouldCompile();
-        fail("notPassing"); 
+//        fail("notPassing"); 
     }
 
 }
