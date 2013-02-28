@@ -50,9 +50,9 @@ public class SomeTest extends TestCase
         fail("six2"); 
     }
 
-    public void testSix2() throws Exception
+    public void testSix3() throws Exception
     {
         new ThisShouldCompile();
-        fail("six2"); 
+        fail("six3"); 
     }
 }
