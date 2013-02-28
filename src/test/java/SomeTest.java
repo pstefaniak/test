@@ -5,7 +5,7 @@ public class SomeTest extends TestCase
     public void testOne() throws Exception
     {
         new ThisShouldCompile();
-//      fail("one"); 
+      fail("one"); 
     }
 
     public void testTwo() throws Exception
@@ -23,6 +23,18 @@ public class SomeTest extends TestCase
     public void testFour() throws Exception
     {
         new ThisShouldCompile();
-//        fail("three"); 
+        fail("four"); 
+    }
+
+    public void testFive() throws Exception
+    {
+        new ThisShouldCompile();
+        fail("five"); 
+    }
+
+    public void testSix() throws Exception
+    {
+        new ThisShouldCompile();
+        fail("six"); 
     }
 }
