@@ -55,4 +55,31 @@ public class SomeTest extends TestCase
         new ThisShouldCompile();
         fail("six3"); 
     }
+    
+    public void testSix5() throws Exception
+    {
+        new ThisShouldCompile();
+        fail("six5"); 
+    }
+    public void testSix4() throws Exception
+    {
+        new ThisShouldCompile();
+        fail("six4"); 
+    }
+    public void testSix6() throws Exception
+    {
+        new ThisShouldCompile();
+        fail("six6"); 
+    }
+    public void testSix7() throws Exception
+    {
+        new ThisShouldCompile();
+        fail("six7"); 
+    }
+    public void testSix8() throws Exception
+    {
+        new ThisShouldCompile();
+        fail("six8"); 
+    }
+    
 }
