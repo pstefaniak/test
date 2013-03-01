@@ -5,7 +5,7 @@ public class SomeTest extends TestCase
     public void testAaaa() throws Exception
     {
         new ThisShouldCompile();
-        fail("Aaaaa"); 
+        //fail("Aaaaa"); 
     }
 
     public void testPassing() throws Exception
