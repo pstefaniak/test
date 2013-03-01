@@ -8,7 +8,7 @@ public class SomeTest extends TestCase
       fail("one"); 
     }
 
-    public void testTestAaaa() throws Exception
+    public void testAaaa() throws Exception
     {
         new ThisShouldCompile();
       fail("two"); 
