@@ -2,16 +2,16 @@ import junit.framework.TestCase;
 
 public class SomeTest extends TestCase
 {
-    public void testOne() throws Exception
+    public void testNotPassing() throws Exception
     {
 //..    new ThisShouldCompile();
       fail("one"); 
     }
 
-    public void testTwo() throws Exception
+    public void testTestAaaa() throws Exception
     {
         new ThisShouldCompile();
-//      fail("two"); 
+      fail("two"); 
     }
 
     public void testThree() throws Exception
